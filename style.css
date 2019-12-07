@@ -1,0 +1,69 @@
+#nav1{
+    background-color: #000066;
+}
+
+#nav2{
+    background-color: #000080; 
+}
+
+#nav2 ul li a{
+    color: white;
+}
+
+#us a{
+    color: aliceblue;
+}
+
+#us a:hover{
+    color: lightsteelblue;
+}
+
+#us a #fb{
+    width: 25px;
+    height: 25px;
+}
+
+#us a #ig{
+    width: 34px;
+    height: 25px;
+}
+
+#us a #tw{
+    width: 25px;
+    height: 25px;
+}
+
+#us a #yt{
+    width: 30px;
+    height: 25px;
+}
+
+#us a #fb:hover{
+    /* background-image: url(img/fb2.png); */
+    background: #3b5998;
+}
+
+#us a #ig:hover{
+    /* background-image: url(img/fb2.png); */
+    background: #E1306C;
+}
+
+#us a #tw:hover{
+    /* background-image: url(img/tw2.png); */
+    background: #00BFFF;
+}
+
+#us a #yt:hover{
+    /* background-image: url(img/yt2.png); */
+    background: red;
+}
+
+#appLogo img{
+    height: 30px;
+    width: 100px;
+}
+
+#logo img{
+    width: 80px;
+    height: 60px;
+}
