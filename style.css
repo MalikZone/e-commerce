@@ -1,13 +1,28 @@
+header{
+    background-image: url(img/ec1.jpg);
+    height: 100%;
+    padding-bottom: 40%;
+}
+
 #nav1{
     background-color: #000066;
+    /* background-color: #000090; */
+    /* background-color: transparent; */
 }
 
 #nav2{
-    background-color: #000080; 
+    /* background-color: #000090; */
+    background-color: transparent;
+    /* box-shadow: 2px 2px 2px rgba(0,0,0,0.7); */
+    margin-top: 48px;
 }
 
 #nav2 ul li a{
-    color: white;
+    color: black;
+}
+
+#us {
+    padding-bottom: 5px;
 }
 
 #us a{
@@ -41,21 +56,25 @@
 #us a #fb:hover{
     /* background-image: url(img/fb2.png); */
     background: #3b5998;
+    transition: .5s;
 }
 
 #us a #ig:hover{
     /* background-image: url(img/fb2.png); */
     background: #E1306C;
+    transition: .5s;
 }
 
 #us a #tw:hover{
     /* background-image: url(img/tw2.png); */
     background: #00BFFF;
+    transition: .5s;
 }
 
 #us a #yt:hover{
     /* background-image: url(img/yt2.png); */
     background: red;
+    transition: .5s;
 }
 
 #appLogo img{
@@ -67,3 +86,18 @@
     width: 80px;
     height: 60px;
 }
+
+#carouselExampleCaptions img{
+    height: 500px;
+}
+
+.navbar ul li a{
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.navbar ul li a:hover{
+    background: white;
+}
+
+
