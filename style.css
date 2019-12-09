@@ -1,7 +1,12 @@
+/* body{
+  background-color: #e9e9e9;
+} */
+
 header{
-    background-image: url(img/ec1.jpg);
+    /* background-image: url(img/ec1.jpg);
     height: 100%;
-    padding-bottom: 40%;
+    padding-bottom: 40%; */
+    margin-bottom: 30px
 }
 
 #nav1{
@@ -13,12 +18,13 @@ header{
 #nav2{
     /* background-color: #000090; */
     background-color: transparent;
-    /* box-shadow: 2px 2px 2px rgba(0,0,0,0.7); */
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     margin-top: 48px;
 }
 
 #nav2 ul li a{
     color: black;
+    margin-right: 12px;
 }
 
 #us {
@@ -97,7 +103,14 @@ header{
 }
 
 .navbar ul li a:hover{
-    background: white;
+    background: #99c;
+    color: white;
 }
 
+.card-deck{
+  margin-bottom: 20px;
+}
 
+.container-fluid{
+  background-color: #e9e9e9;
+}
